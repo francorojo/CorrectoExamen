@@ -1,0 +1,21 @@
+*Para el requisito de los requerimientos trate de pensar al verdaero y falso, como que guardaba la respuesta correcta en un atributo.
+Y al recibir la oficial por parametro la comparaba.
+*Para el criterio de la multiple choices, pude solucionar el tema de comparar string porque se puede determinar la correcta por el numero de opcion.
+*Para el criterio de la respuesta correcta en cambio, guardo la frase pero dejo el criterio a desicion del responsable de comprar ambas.
+*Para la parte de los criterios de aprobacion, necesito saber en la resta de "n", el valor final y de la n por parametro.
+*Para el criterio de la regla de 3 solo necesito la nota total.
+*Para el requisito de la estimacion por la tabla comparativa, similar, necesito la tabla para determinar la nota.
+*Luego se pueden definir por la nota mas alta de los que posean el examen o en cambio por el promedio.
+
+"Plantee los cambios necesarios para incorporar los siguientes agregados
+un estudiante puede aprobar un examen sólo si tiene determinadas preguntas correctamente contestadas.
+para obtener la sumatoria existen tres opciones: 
+-las preguntas mal contestadas no suman, 
+-restan la mitad de su valor, o bien 
+-descuenta 1 punto del total."
+
+*Para ese requerimiento, se puede considerar la nota que devuelva la respuesta, ya que aquellas que esten mal, pense que devolvian 0
+Por lo tanto para el requerimiento 1), ya estaria.
+Para el 2) y 3), habria que filtrar las erroneas y aplicar cualquiera de los dos criterios.
+
+Gracias. 
